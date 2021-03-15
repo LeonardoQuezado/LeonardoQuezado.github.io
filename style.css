@@ -1,0 +1,67 @@
+
+            body{
+                font-family: Andale Mono;
+                background-image: url("img/back.jpg");
+            }
+           
+
+            .cabecalho{
+                background-color: white;
+                display: flex;
+                flex-direction: row;
+                align-content: space-between;
+         
+            }
+
+            .redesSociais{ 
+                align-content: space-between;
+                margin-left: 1675px;
+                
+            }
+
+            .principal{
+                height: 90vh;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                text-align: center   
+            }
+
+            .quadro{
+                width: 800px;
+                height: 400px;
+                background-color: white;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            
+      #loli{
+       height: 160px;
+     }
+       #instagram{
+       height: 50px;
+       
+     }
+      #face{
+       height: 50px;
+       
+     }
+      #disc{
+       height: 50px;}
+
+     #titulo{
+       color:#F6D9D5;
+     }
+     .link{
+       color: white;
+       background: #F6D9D5;
+       padding-top: 5px; 
+       padding-bottom: 5px;
+       padding-left: 5px;
+       padding-right: 5px;
+       border-radius: 30px;
+       text-decoration: none;
+     }
