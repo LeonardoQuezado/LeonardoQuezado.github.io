@@ -38,9 +38,12 @@
                 flex-direction: row;
                 justify-content: center;
                 align-items: center;
+                opacity : 0.5
                 
             }
-            
+            .texto{
+              opacity : 1
+            }
       #loli{
        height: 160px;
      }
@@ -68,3 +71,4 @@
        border-radius: 30px;
        text-decoration: none;
      }
+
