@@ -13,15 +13,15 @@
 --hue-color:250 ;
 
 /*HSL Color mode*/
---first-color:hsl(--var(var(--hue-color)), 69%, 61%) ;
---first-color-second:hsl(--var(var(--hue-color)), 69%, 61%) ;
---first-color-alt:hsl(--var(var(--hue-color)), 57%, 53%) ;
---first-color-lighter: hsl(--var(var(--hue-color)), 92%, 85%) ;
---title-color: hsl(--var(var(--hue-color)), 8%, 15%) ;
---text-color: hsl(--var(var(--hue-color)), 8%, 45%) ;
---text-color-light: hsl(--var(var(--hue-color)), 8%, 65%) ;
---input-color: hsl(--var(var(--hue-color)), 70%, 96%) ; 
---body-color:hsl(--var(var(--hue-color)), 60%, 99%)  ;
+--first-color: hsl(var(--hue-color), 69%, 61%) ;
+--first-color-second:hsl(var(--hue-color), 69%, 61%) ;
+--first-color-alt:hsl(var(--hue-color), 57%, 53%) ;
+--first-color-lighter: hsl(var(--hue-color), 92%, 85%) ;
+--title-color: hsl(var(--hue-color), 8%, 15%) ;
+--text-color: hsl(var(--hue-color), 8%, 45%) ;
+--text-color-light: hsl(var(--hue-color), 8%, 65%) ;
+--input-color: hsl(var(--hue-color), 70%, 96%) ; 
+--body-color:hsl(var(--hue-color), 60%, 99%)  ;
 --container-color: #FFF;
 
 /*Font  and typography*/
@@ -190,7 +190,7 @@ color: var(--first-color);
 @media screen and (max-width: 767px) {
   .nav__menu{
     position: fixed;
-    bottom: 0;
+    bottom: -100%;
     left: 0;
     width: 100%;
     background-color: var(--body-color);
@@ -234,7 +234,8 @@ color: var(--first-color);
 }
 
 /*show menu*/
-
-
+.show-menu{
+  bottom: 0;
+}
 
 /*Active link*/
