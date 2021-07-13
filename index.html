@@ -97,24 +97,50 @@
 
         <div class="home__img">
 
-            <svg class="home_blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <svg class="home__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                 <mask id="mask0" mask-type = "alpha">
                 <path d ="M65.9,-39.9C78.6,-16.1,77.3,13.9,64,37C50.7,60.2,25.4,76.4,-1.4,77.3C-28.2,78.1,
                 -56.5,63.5,-69.2,40.7C-81.9,17.9,-79,-13,-64.9,-37.7C-50.8,-62.4,-25.4,-80.8,0.6,-81.1C26.6,-81.5,53.2,-63.8,65.9,-39.9Z"
                 transform="translate(100 100)" />
                 </mask>
 
-                <g mask=url(#mask0)>
-                 <path d ="M65.9,-39.9C78.6,-16.1,77.3,13.9,64,37C50.7,60.2,25.4,76.4,-1.4,77.3C-28.2,78.1,
+                <g mask="url(#mask0)">
+                <path d ="M65.9,-39.9C78.6,-16.1,77.3,13.9,64,37C50.7,60.2,25.4,76.4,-1.4,77.3C-28.2,78.1,
                 -56.5,63.5,-69.2,40.7C-81.9,17.9,-79,-13,-64.9,-37.7C-50.8,-62.4,-25.4,-80.8,0.6,-81.1C26.6,-81.5,53.2,-63.8,65.9,-39.9Z"
-             transform="translate(100 100)" />
-            <image xlink:href=""/>
+            transform="translate(100 100)" />
+            <image class="home__blob" x='12' y ='18'  xlink:href="img\Profile_pic.jpg"/>
     
 </g>
 
             </svg>
 
         </div>
+
+            <div class="home__data">
+                <h1 class="home__title">
+                    Hi, i'am Leonardo
+                </h1>
+                <h3 class="home__subtitle">
+                    Frontend Developer
+                </h3>
+                <p class="home__description">
+                    Hard-Working listing programmer with a flair for creating elegant solutions in the least amount of time with a lot of experience in front end development and some in backend
+                </p>
+                <a href="#contact" class="button button--flex">
+                    Contact Me<i class="uil uil-message button__icon"></i>
+                </a>
+            </div>
+
+<div class="home__scroll">
+    <a href="#about" class="home__scroll-button button--flex">
+        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+        <span class="home__scroll-name">
+            Scrol down
+        </span>
+        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+    </a>
+</div>
+
 
     </div>
 </div>
@@ -123,7 +149,39 @@
 
 </section>
 <!-- About-->
+<selection class="about section" id="about">
+    <h2 class="section__title">
+        About me
+    </h2>
+    <span class="section__subtitle">
+        Hi, my name is Leonardo Quezado i'am a graduate student from university of fortaleza
+    </span>
+    <div class="about__container container grid">
+        <img src="img\Profile_pic_2.jpg" alt="" class="about__img">
+        <div class="about__data">
+            <p class="about__description">
+                Web developer,  with a flair for creating elegant solutions in the least amount of time with a lot of experience in front end development and some in backend with a flair for creating elegant solutions in the least amount of time with a lot of experience in front end development and some in backend
+            </p>
 
+            <div class="about__info">
+                <div>
+                    <span class="about__infor-title">02+</span>
+                    <span class="about__infor-name">Years <br> experience</span>
+                </div>
+
+                <div>
+                    <span class="about__infor-title">04+</span>
+                    <span class="about__infor-name">Completed <br> Project</span>
+                </div>
+            </div>
+            <div class="about__buttons">
+                <a download="" href="Pdf\Curriculum_EG.pdf" class="button button--flex">
+                    Download CV<i class="uil uil-file-download button__icon"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</selection>
 <!-- Skills-->
 
 <!-- Quali-->
