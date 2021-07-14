@@ -51,3 +51,27 @@ if(itemClass === 'skills__content skills__close'){
 skillsHeader.forEach((el) =>{
     el.addEventListener('click', toogleSkills)
 })
+
+
+
+
+/* acordion Quali*/
+
+const tabs = document.querySelectorAll('[data-target]'),
+        tabContents = document.querySelectorAll('[data-content]')
+
+tabs.forEach(tab =>{
+    tab.addEventListener('click', () =>{
+        const target = document.querySelector(tab.dataset.target)
+
+        tabContents.forEach(tabContent =>{
+            tabContent.classList.remove('qualification__active')
+        })
+            target.classList.add('qualification__ative')
+            
+            tabs.forEach(tab =>{
+                tab.classList.remove('qualification__active')
+            })
+            tab.classList.add('qualification__active')
+    })
+})
