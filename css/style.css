@@ -239,8 +239,17 @@ color: var(--first-color);
 }
 
 /*Active link*/
+.active-link{
+  color: var(--first-color);
+}
+
 
 /* c bg header*/
+
+.scroll-header{
+  box-shadow:  0 -1px  4px rgba(0, 0, 0, .15);
+}
+
 /*Home*/
 .home__container{
   gap: 1rem;
@@ -774,4 +783,138 @@ margin-right: var(--mb-0-25) ;
 .project__img{
   width: 232px;
   justify-self: center;
+}
+
+
+/*Contact ME*/
+.contact__container{
+  row-gap: 3rem;
+}
+
+.contact__information{
+  display: flex;
+  margin-bottom: var(--mb-2);
+}
+
+.contact__icon{
+  font-size: 2rem;
+  font-weight: var(--font-medium);
+  color: var(--first-color);
+}
+
+.contact__subtitle{
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
+
+.contact__content{
+  background-color: var(--input-color);
+  border-radius: .5rem;
+  padding: .75rem 1rem .25rem;
+}
+
+
+.contact__label{
+  font-size: var(--smaller-font-size);
+  color: var(--title-color)
+}
+
+
+.contact__input{
+  width: 100%;
+  background-color: var(--input-color);
+  color: var(--text-color);
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  border: none;
+  outline: none;
+  padding: .25rem .5rem .5rem 0;
+}
+
+
+/*Footer*/
+
+
+.footer{
+  padding-top: 2rem;
+}
+
+.footer__container{
+  row-gap: 3.5rem;
+}
+
+
+.footer__bg{
+  background-color: var(--first-color);
+  padding: 2rem 0 3rem;
+}
+
+.footer__subtitle{
+  font-size: var(--small-font-size);
+}
+
+.footer__links{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+.footer__link:hover{
+  color: var(--first-color-lighter);
+}
+
+.footer__social{
+  font-size: 1.25rem;
+  margin-right: var(--mb-1-5);
+}
+
+.footer__social:hover{
+  color: var(--first-color-lighter);
+}
+
+.footer__copy{
+  font-size: var(--smaller-font-size);
+  text-align: center;
+  color: var(--text-color-light);
+  margin-top: var(--mb-3);
+}
+
+.footer__title,
+.footer__subtitle,
+.footer__link,
+.footer__social{
+  color: #FFF;
+}
+
+
+/*SU*/
+
+.scrollup{
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  background-color: var(--first-color);
+  opacity:  .8;
+  padding: 0 .3rem;
+  border-radius:  .4rem;
+  z-index: var(--z-tolltip);
+  transition: .4s;
+}
+
+
+.scrollup:hover{
+  background-color: var(--first-color-alt);
+}
+
+.scrollup__icon{
+  font-size: 1.5rem;
+  color: #FFF;
+}
+
+
+
+/*show scroll*/
+
+.show-scroll{
+  bottom: 5rem;
 }

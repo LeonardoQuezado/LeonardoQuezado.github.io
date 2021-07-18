@@ -29,7 +29,7 @@
         <div class="nav__menu" id="nav-menu">
             <ul class="nav__list grid">
                 <li class="nav__item">
-                    <a href="#home" class="nav__link">
+                    <a href="#home" class="nav__link active-link">
                         <i class="uil uil-home nav__icon"></i> Home
                     </a>
                 </li>
@@ -74,7 +74,6 @@
 
 <!-- Main-->
 <main class="main">
-</main>
 
 <!-- Home-->
 <section class="home section" id="home">
@@ -666,14 +665,121 @@
 </section>
 
 <!-- Contact Me-->
+<section class="contact section" id="contact">
+    <h2 class="section__title">Contact Me</h2>
+    <span class="section__subtitle">Entre em Contato</span>
+    <div class="contact__container container grid">
+        <div>
+            <div class="contact__information">
+                <i class="uil uil-envelope-edit contact__icon"></i>
 
+                <div>
+                    <h3 class="contat__title">Email</h3>
+                    <span class="contat__subtitle">leoquezado@outlook.com</span>
+                </div>
+        </div>
+            <div class="contact__information">
+                <i class="uil uil-map-marker contact__icon"></i>
+                <div>
+                    <h3 class="contat__title">Location</h3>
+                    <span class="contat__subtitle">Brasil - Vilebaldo Aguiar 760 Fortaleza/CE</span>
+                </div>
+        </div>
+
+        <form action="" class="contact__form grid">
+            <div class="contact__inputs grid">
+                <div class="contact__content">
+                    <label for="" class="contact__label">Name</label>
+                    <input type="text" class="contact__input">
+                </div>
+
+                <div class="contact__content">
+                    <label for="" class="contact__label">Email</label>
+                    <input type="email" class="contact__input">
+                </div>
+
+            </div>
+
+            <div class="contact__content">
+                <label for="" class="contact__label">Project</label>
+                <input type="text" class="contact__input">
+            </div>
+
+            <div class="contact__content">
+                <label for="" class="contact__label">message</label>
+                <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+            </div>
+
+            <div>
+                <a href="#" class="button button--flex">
+                    Send Message
+                <i class="uil uil-message button__icon"></i>
+                </a>
+                
+            </div>
+
+        </form>
+
+    </div>
+</section>
+</main>
 
 <!-- Footer-->
+<footer class="footer"> 
+    <div class="footer__bg">
+        <div class="footer__container container grid">
+            <div>
+                <h1 class="footer__title">Leo</h1>
+                <span class="footer__subtitle">Frontend Developer</span>
+            </div>
 
+            <ul class="footer__links">
+                <li>
+                    <a href="#services" class="footer__link">Services</a>
+                </li>
+
+                <li>
+                    <a href="#portfolio" class="footer__link">Portfolio</a>
+                </li>
+
+                <li>
+                    <a href="#contact" class="footer__link">Contact Me</a>
+                </li>
+
+            </ul>
+
+            <div class="footer__socials">
+                <a href="https://www.facebook.com/leonardo.quezado/" target="_blank" class="footer__social">
+                    <i class="uil uil-facebook"></i>
+
+                </a>
+
+
+                <a href="https://www.instagram.com/leonardoquezado/" target="_blank" class="footer__social">
+                    <i class="uil uil-instagram-alt"></i>
+                    
+                </a>
+
+
+                <a href="https://github.com/LoliPrivatier" target="_blank" class="footer__social">
+                    <i class="uil uil-github"></i>
+                    
+                </a>
+            </div>
+
+
+        </div>
+
+        <p class="footer__copy">&#169; Leonardo Quezado. All Rights reserved</p>
+    </div>
+</footer>
 
 
 <!-- Scroll top-->
 
+<a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+</a>
 
 <!-- Swiper JS-->
 <script src="js\swiper-bundle.min.js"></script>
