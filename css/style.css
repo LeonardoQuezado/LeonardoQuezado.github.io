@@ -365,6 +365,16 @@ home__social-icon{
   background-color: transparent;
   color:var(--first-color)
 }
+
+.button--white{
+  background-color: #FFF;
+  color: var(--first-color);
+}
+
+.button--white:hover{
+  background-color: #FFF;
+}
+
 /*about*/
 .about__img{
   width: 200px;
@@ -738,4 +748,30 @@ margin-right: var(--mb-0-25) ;
 .swiper-button-next,
 .swiper-pagination-bullets{
   outline: none;
+}
+
+
+/*pim*/
+.project{
+  text-align: center;
+}
+
+.project__bg{
+  background-color: var(--first-color);
+  padding-top: 3rem;
+}
+
+.project__title{
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-0-75);
+}
+
+.project__description,
+.project__title{
+  color: #FFF;
+}
+
+.project__img{
+  width: 232px;
+  justify-self: center;
 }
